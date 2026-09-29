@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "web-interface-api",
+      "title": "Web Interface for a REST API",
+      "description": "Construa uma interface web com HTML, CSS e JavaScript para consumir uma API REST de tarefas.",
+      "path": "assignments/web-interface-api",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "HTML Interface",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "CSS Styles",
+          "file": "styles.css",
+          "type": "txt"
+        },
+        {
+          "name": "Starter JavaScript",
+          "file": "starter-code.js",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }

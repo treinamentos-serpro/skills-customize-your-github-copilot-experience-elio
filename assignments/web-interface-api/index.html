@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <p class="eyebrow">FastAPI + JavaScript</p>
+        <h1>Task Manager</h1>
+        <p>Organize suas tarefas usando uma interface conectada à API.</p>
+      </header>
+
+      <section class="panel" aria-labelledby="new-task-title">
+        <h2 id="new-task-title">Nova tarefa</h2>
+        <form id="task-form">
+          <label for="task-title">Título</label>
+          <div class="form-row">
+            <input id="task-title" name="title" type="text" required />
+            <button type="submit">Adicionar</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel" aria-labelledby="tasks-title">
+        <div class="section-heading">
+          <h2 id="tasks-title">Tarefas</h2>
+          <span id="task-count">0 tarefas</span>
+        </div>
+        <p id="status" role="status"></p>
+        <ul id="task-list"></ul>
+      </section>
+    </main>
+    <script src="starter-code.js"></script>
+  </body>
+</html>
